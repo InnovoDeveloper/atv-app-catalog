@@ -1,10 +1,11 @@
 {
-  "version": "2026.05.23.8",
+  "version": "2026.05.23.9",
   "_description": "Innovo Apple TV icon library. Served on managed devices at /icons/<name>.png via nginx, read by the Elan driver and any other app that needs Apple TV app artwork.",
   "_changelog": [
     "2026-05-23.6: Repurposed from apple-tv-apps.json (apps[]) to manifest.json (icons-only). Apple TV app discovery is now handled natively by pyatv PR #2855; this repo's only job is to host the icon library + ship deltas to devices.",
     "2026-05-23.7: Added City TV (citytv.png). Replaced HBO Max icon with operator-supplied newer version. 74 icons total.",
-    "2026-05-23.8: hbomax.png byte-modified for delta-detection test (harmless tEXt PNG chunk added; image visually identical)."
+    "2026-05-23.8: hbomax.png byte-modified for delta-detection test (harmless tEXt PNG chunk added; image visually identical).",
+    "2026-05-23.9: Added Global TV (globaltv.png). 75 icons total."
   ],
   "icons": {
     "amazonmusic.png": {
@@ -94,6 +95,10 @@
     "geforcenow.png": {
       "sha256": "226d168e382401f2af8c3d54458b76e88e2223a5d18c898eb9625a55b68caf4f",
       "size": 12117
+    },
+    "globaltv.png": {
+      "sha256": "15a0b6258af49e6fa150585bc3b34d724e4a37893782e3379f976c92a6eae5c3",
+      "size": 9972
     },
     "hallmark.png": {
       "sha256": "2e1aa6a413832dba4ef075edd28ba0d63e01ec1e31fa12c639a5d60faaa2c2d8",
