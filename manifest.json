@@ -1,5 +1,5 @@
 {
-  "version": "2026.05.23.19",
+  "version": "2026.05.23.20",
   "_description": "Innovo Apple TV icon library. Served on managed devices at /icons/<name>.png via nginx, read by the Elan driver and any other app that needs Apple TV app artwork.",
   "_changelog": [
     "2026-05-23.6: Repurposed from apple-tv-apps.json (apps[]) to manifest.json (icons-only). Apple TV app discovery is now handled natively by pyatv PR #2855; this repo's only job is to host the icon library + ship deltas to devices.",
@@ -15,9 +15,14 @@
     "2026.05.23.16: updated 1 (netflix.png).",
     "2026.05.23.17: updated 1 (hulu.png).",
     "2026.05.23.18: updated 1 (disney.png).",
-    "2026.05.23.19: added 1 (aljazeeraenglish.png); updated 1 (spotify.png)."
+    "2026.05.23.19: added 1 (aljazeeraenglish.png); updated 1 (spotify.png).",
+    "2026.05.23.20: alias icons (disneyplus.png + disney+.png from disney.png; aljazeera.png from aljazeeraenglish.png). Same content, additional filenames so device-side UI/Elan callers using any of these names get the artwork."
   ],
   "icons": {
+    "aljazeera.png": {
+      "sha256": "8452f0631c8184573296179562cfb4518d6a0005531f622a826a853dffc29c06",
+      "size": 15909
+    },
     "aljazeeraenglish.png": {
       "sha256": "8452f0631c8184573296179562cfb4518d6a0005531f622a826a853dffc29c06",
       "size": 15909
@@ -78,7 +83,15 @@
       "sha256": "f505cbb5ef1489769c992d080f597435266cb7b929d626a74a91b9925d23dd9c",
       "size": 37004
     },
+    "disney+.png": {
+      "sha256": "575502345a36e02367fa800823c41f9387782dcd74cf3acc97ea082798476b76",
+      "size": 19988
+    },
     "disney.png": {
+      "sha256": "575502345a36e02367fa800823c41f9387782dcd74cf3acc97ea082798476b76",
+      "size": 19988
+    },
+    "disneyplus.png": {
       "sha256": "575502345a36e02367fa800823c41f9387782dcd74cf3acc97ea082798476b76",
       "size": 19988
     },
