@@ -1,5 +1,5 @@
 {
-  "version": "2026.05.23.14",
+  "version": "2026.05.23.15",
   "_description": "Innovo Apple TV icon library. Served on managed devices at /icons/<name>.png via nginx, read by the Elan driver and any other app that needs Apple TV app artwork.",
   "_changelog": [
     "2026-05-23.6: Repurposed from apple-tv-apps.json (apps[]) to manifest.json (icons-only). Apple TV app discovery is now handled natively by pyatv PR #2855; this repo's only job is to host the icon library + ship deltas to devices.",
@@ -10,7 +10,8 @@
     "2026.05.23.11: updated 1 (netflix.png).",
     "2026.05.23.12: updated 1 (netflix.png).",
     "2026.05.23.13: updated 4 (chillio.png, nasa.png, hbomax.png, netflix.png).",
-    "2026.05.23.14: updated 4 (chillio.png, hallmark.png, globaltv.png, netflix.png)."
+    "2026.05.23.14: updated 4 (chillio.png, hallmark.png, globaltv.png, netflix.png).",
+    "2026.05.23.15: updated 1 (netflix.png)."
   ],
   "icons": {
     "amazonmusic.png": {
@@ -162,8 +163,8 @@
       "size": 37318
     },
     "netflix.png": {
-      "sha256": "954d7362c7053743dd5d48b2ec1452254350880a54efedc3cac42aeb95eccfee",
-      "size": 24489
+      "sha256": "03d7f0395014bfd283042249603d7f766cedb59e01180a014f0bdd6ba5b1c887",
+      "size": 6457
     },
     "nfl.png": {
       "sha256": "bf1b954cb7eacce66334fef8da53c806128b9b1cfa79b218c409c50474e07cec",
