@@ -1,11 +1,12 @@
 {
   "channel": "stable",
-  "version": "2026.05.23.3",
+  "version": "2026.05.23.4",
   "_description": "Innovo curated Apple TV app catalog with per-icon SHA-256.",
   "_changelog": [
     "2026-05-23.1: Initial seed from atv-bridge static catalog v2 (69 apps)",
     "2026-05-23.2: Updated Spotify + HBO Max to current App Store artwork. Added 16 previously-missing icons via iTunes Search API: Movies Anywhere, MUBI, The Roku Channel (Roku app icon), YouTube Music, NHL, Xbox, Steam Link, VLC, Infuse, Jellyfin (Swiftfin), Peloton, FITE (TrillerTV), WWE Network, UFC, Vimeo, MasterClass. Crackle + GeForce NOW remain icon=null (no current App Store match).",
-    "2026-05-23.3: Added Crackle (icon-icons.com) and GeForce NOW (Wikimedia, SVG rasterized to 512x512). All 69 apps now have icons."
+    "2026-05-23.3: Added Crackle (icon-icons.com) and GeForce NOW (Wikimedia, SVG rasterized to 512x512). All 69 apps now have icons.",
+    "2026-05-23.4: Replaced HBO Max icon with operator-supplied version."
   ],
   "apps": [
     {
@@ -48,7 +49,7 @@
       "name": "HBO Max",
       "bundle_id": "com.wbd.stream",
       "icon": "hbomax.png",
-      "icon_sha256": "af1c0f9006524fcf6a4173901a5b4573a87d2507c3c196012d3fecc0fa9dbf0d"
+      "icon_sha256": "d3149c57f1e56eabe64c6ac2e8a6b6f9d5f1e86b57f7179ab2b39fc8dfe9e5a5"
     },
     {
       "name": "Paramount+",
