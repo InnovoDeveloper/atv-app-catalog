@@ -1,0 +1,424 @@
+{
+  "channel": "stable",
+  "version": "2026.05.23.1",
+  "_description": "Innovo curated Apple TV app catalog with per-icon SHA-256.",
+  "_changelog": [
+    "2026-05-23.1: Initial seed from atv-bridge static catalog v2 (69 apps)"
+  ],
+  "apps": [
+    {
+      "name": "Netflix",
+      "bundle_id": "com.netflix.Netflix",
+      "icon": "netflix.png",
+      "icon_sha256": "0c265356ff9a12e8fff130eff447375d07661d8d793a04bde294598d17f8ec4b"
+    },
+    {
+      "name": "YouTube",
+      "bundle_id": "com.google.ios.youtube",
+      "icon": "youtube.png",
+      "icon_sha256": "28e96cefa79170a1391ee1af6891573acddf0a089f50a44f717586b73fae8aa6"
+    },
+    {
+      "name": "Disney+",
+      "bundle_id": "com.disney.disneyplus",
+      "icon": "disney.png",
+      "icon_sha256": "94a9c279358ca14da691e27db0e9d009ca03002aa92b37636f69c4ae65b9b2da"
+    },
+    {
+      "name": "Apple TV+",
+      "bundle_id": "com.apple.TVWatchList",
+      "icon": "appletv.png",
+      "icon_sha256": "19dcee859a1dd3b17582b3ce60fc579c72b99deafbe69144407872f5e30671b8"
+    },
+    {
+      "name": "Prime Video",
+      "bundle_id": "com.amazon.aiv.AIVApp",
+      "icon": "primevideo.png",
+      "icon_sha256": "aae4e24085234bb48a865f8e01b9c1a73d792839dc40c47fc6d599edd62f43c3"
+    },
+    {
+      "name": "Hulu",
+      "bundle_id": "com.hulu.plus",
+      "icon": "hulu.png",
+      "icon_sha256": "17a9bb6ee09f8284e05c3c006e52f60be933225b5c7d867e1d016a064788aadf"
+    },
+    {
+      "name": "HBO Max",
+      "bundle_id": "com.wbd.stream",
+      "icon": "hbomax.png",
+      "icon_sha256": "a5d6738f9d333d36a3d1a48a5dcc203da5f9804719425d52098718885f402586"
+    },
+    {
+      "name": "Paramount+",
+      "bundle_id": "com.cbsvideo.app",
+      "icon": "paramountplus.png",
+      "icon_sha256": "cd828cb793d3ab36d1ce41b4e72af346e6b26d43e6f6af61a0897cef7d225166"
+    },
+    {
+      "name": "Peacock",
+      "bundle_id": "com.peacocktv.peacock",
+      "icon": "peacock.png",
+      "icon_sha256": "54c74c97f8c30afb875ad32f0d3dabda18bad837d579836c2f47be45776662b4"
+    },
+    {
+      "name": "YouTube TV",
+      "bundle_id": "com.google.ios.youtubeunplugged",
+      "icon": "youtubetv.png",
+      "icon_sha256": "44567b7002bf270dfeb879a14e428cc33b4766af1f239039ff6e1a087ec208d5"
+    },
+    {
+      "name": "Sling TV",
+      "bundle_id": "com.dishdigital.sling",
+      "icon": "slingtv.png",
+      "icon_sha256": "8e04231e17f66e7e0e703b587f2eda1bb3f353ffb5eb67b9e7965f160e3bca32"
+    },
+    {
+      "name": "Fubo",
+      "bundle_id": "tv.fubo.mobile",
+      "icon": "fubo.png",
+      "icon_sha256": "677d4eea68b866b9521b178a846b085b02ef056378c4776993644f1f1211d195"
+    },
+    {
+      "name": "DIRECTV",
+      "bundle_id": "com.att.tv",
+      "icon": "directv.png",
+      "icon_sha256": "e9683643122eccd6622ddf9861705b41ba8d451bd194d0559ebc92fd9a7949c4"
+    },
+    {
+      "name": "Pluto TV",
+      "bundle_id": "tv.pluto.ios",
+      "icon": "plutotv.png",
+      "icon_sha256": "0cb34436f691b93e9d86ccf8ac16fde0fb35bf2d41883fccb6b32ff6663ff313"
+    },
+    {
+      "name": "Tubi",
+      "bundle_id": "com.adrise.tubitv",
+      "icon": "tubi.png",
+      "icon_sha256": "34e2f6d3f673637979da83f46e6f02c2ed70fda296d54035c8cfd7ac92445915"
+    },
+    {
+      "name": "Plex",
+      "bundle_id": "com.plexapp.plex",
+      "icon": "plex.png",
+      "icon_sha256": "35c08d155037b04f8580b46d6490ec8d67e235a084f49ce780ebf9aa622470a9"
+    },
+    {
+      "name": "Vudu / Fandango",
+      "bundle_id": "com.vudu.VuduIosClient",
+      "icon": "vudu.png",
+      "icon_sha256": "326a9548bae85c77862adfde925767672729225e001543b426362b0bbedc2bff"
+    },
+    {
+      "name": "Movies Anywhere",
+      "bundle_id": "com.moviesanywhere",
+      "icon": null,
+      "icon_sha256": null
+    },
+    {
+      "name": "discovery+",
+      "bundle_id": "com.discovery.mobile.discoveryplus",
+      "icon": "discoveryplus.png",
+      "icon_sha256": "62550e429bdefaaa88cca4621c51f75e954463970a4cb26fd26b01deddf99041"
+    },
+    {
+      "name": "STARZ",
+      "bundle_id": "com.starz.starzplay",
+      "icon": "starz.png",
+      "icon_sha256": "84b57e28a416ac40d5345e9c1415c91df578969a8cca2dfeb1f969bfdfe33c4c"
+    },
+    {
+      "name": "AMC+",
+      "bundle_id": "com.amcplus.amcn",
+      "icon": "amc.png",
+      "icon_sha256": "d797e1aae33597c57e2503d7d11eca4593b0960c6514c8fe670c8e808e69052d"
+    },
+    {
+      "name": "Shudder",
+      "bundle_id": "com.sundancenow.shudder",
+      "icon": "shudder.png",
+      "icon_sha256": "c8ece78d77a67c1e83eed74c53ac3cf4b40fa0ded059b599f4ff1ce817318caf"
+    },
+    {
+      "name": "MUBI",
+      "bundle_id": "com.mubi.mubiapp",
+      "icon": null,
+      "icon_sha256": null
+    },
+    {
+      "name": "The Roku Channel",
+      "bundle_id": "com.roku.ios.roku",
+      "icon": null,
+      "icon_sha256": null
+    },
+    {
+      "name": "Crackle",
+      "bundle_id": "tv.crackle.crackleios",
+      "icon": null,
+      "icon_sha256": null
+    },
+    {
+      "name": "Spotify",
+      "bundle_id": "com.spotify.client",
+      "icon": "spotify.png",
+      "icon_sha256": "db665697454f46ee4ca3de3d1dd14a5366cd006d51bb7a60c455c15623b64435"
+    },
+    {
+      "name": "Apple Music",
+      "bundle_id": "com.apple.TVMusic",
+      "icon": "music.png",
+      "icon_sha256": "a3c77eb4edb3229e2c230431349acd46c09317c94ef04fcd69cc65b692928594"
+    },
+    {
+      "name": "TIDAL",
+      "bundle_id": "com.aspiro.TIDAL",
+      "icon": "tidal.png",
+      "icon_sha256": "1d8b502164aad15981880fdaf100f82a58fd25f8d3b1508d2234b6485bfcd30e"
+    },
+    {
+      "name": "Pandora",
+      "bundle_id": "com.pandora",
+      "icon": "pandora.png",
+      "icon_sha256": "5817061aa16255d08f975c9f515e0e1925eb43f21b1d31fbb01b6d8154ab6920"
+    },
+    {
+      "name": "YouTube Music",
+      "bundle_id": "com.google.ios.youtubemusic",
+      "icon": null,
+      "icon_sha256": null
+    },
+    {
+      "name": "Amazon Music",
+      "bundle_id": "com.amazon.mp3.AmazonCloudPlayer",
+      "icon": "amazonmusic.png",
+      "icon_sha256": "5157d99183fdb9fe1c21c189bee61eb86f1ca983925fb72f5e4b746ee6808c70"
+    },
+    {
+      "name": "ESPN",
+      "bundle_id": "com.espn.watch",
+      "icon": "espn.png",
+      "icon_sha256": "d970e9f18da911644f3e346fdfabbe2a6b23ad97988785fd5e86d4a78aff9cf4"
+    },
+    {
+      "name": "NFL",
+      "bundle_id": "com.nfl.gamecenter",
+      "icon": "nfl.png",
+      "icon_sha256": "bf1b954cb7eacce66334fef8da53c806128b9b1cfa79b218c409c50474e07cec"
+    },
+    {
+      "name": "NBA",
+      "bundle_id": "com.nbadigital.gametimeltv",
+      "icon": "nba.png",
+      "icon_sha256": "2bae3b1e27cf9954bf2fa8ee77d766128f56d736e7a43dac023bc22aab28dfd2"
+    },
+    {
+      "name": "MLB",
+      "bundle_id": "com.mlb.atbat",
+      "icon": "mlb.png",
+      "icon_sha256": "db97bcf6e5a99f93eabcb28b3cd7f97778b1477db1e68c43a8cbede6d639a676"
+    },
+    {
+      "name": "NHL",
+      "bundle_id": "com.nhl.gc",
+      "icon": null,
+      "icon_sha256": null
+    },
+    {
+      "name": "Fox Sports",
+      "bundle_id": "com.foxsports.fsgo",
+      "icon": "foxsports.png",
+      "icon_sha256": "93701dd28a818f0c744412f70c0d4ddf2f62b98ba2e4019f990e789b63fc2200"
+    },
+    {
+      "name": "NBC Sports",
+      "bundle_id": "com.nbcuni.nbc.sports",
+      "icon": "nbcsports.png",
+      "icon_sha256": "721a943fd5976838c217fede10b0c4672b2cf5f5f99df4fd013cd9e38f118e3c"
+    },
+    {
+      "name": "CBS Sports",
+      "bundle_id": "com.cbsvideo.sportsapp",
+      "icon": "cbssports.png",
+      "icon_sha256": "9276c57ec134f946d4cf88319da5e1091eed0bac833220e04a273c82a43cb18d"
+    },
+    {
+      "name": "DAZN",
+      "bundle_id": "com.dazn.theApp",
+      "icon": "dazn.png",
+      "icon_sha256": "a9b430e80f110809aa3a27d1ea46b7f2c9918cb9166e577b69d5dca42998a79e"
+    },
+    {
+      "name": "PBS Kids",
+      "bundle_id": "org.pbskids.video",
+      "icon": "pbskids.png",
+      "icon_sha256": "6c22667f4ee3031b1a527e0b259b44e2d6ef0ef5cdad551f9ca0a57e96b5306b"
+    },
+    {
+      "name": "YouTube Kids",
+      "bundle_id": "com.google.ios.youtubekids",
+      "icon": "youtubekids.png",
+      "icon_sha256": "c07faba544d83d3ebad3129682b0e1fe01dd066b18714c24ae8a38c7492f2988"
+    },
+    {
+      "name": "Crunchyroll",
+      "bundle_id": "com.crunchyroll.iphone",
+      "icon": "crunchyroll.png",
+      "icon_sha256": "ec683862f0803fa7a062de22d91ccdba3a3c2fbf16c30ec1a0487d41a0f00125"
+    },
+    {
+      "name": "Apple Arcade",
+      "bundle_id": "com.apple.Arcade",
+      "icon": "arcade.png",
+      "icon_sha256": "3e36c9eaab5cffd40663911cb150fbed1506ba63970fa00b2ce6835539b58bca"
+    },
+    {
+      "name": "Xbox",
+      "bundle_id": "com.microsoft.gamestreaming",
+      "icon": null,
+      "icon_sha256": null
+    },
+    {
+      "name": "Steam Link",
+      "bundle_id": "com.valvesoftware.steamlink",
+      "icon": null,
+      "icon_sha256": null
+    },
+    {
+      "name": "GeForce NOW",
+      "bundle_id": "com.nvidia.geforcenow",
+      "icon": null,
+      "icon_sha256": null
+    },
+    {
+      "name": "VLC",
+      "bundle_id": "org.videolan.vlc-ios",
+      "icon": null,
+      "icon_sha256": null
+    },
+    {
+      "name": "Infuse",
+      "bundle_id": "com.firecore.infuse",
+      "icon": null,
+      "icon_sha256": null
+    },
+    {
+      "name": "Jellyfin",
+      "bundle_id": "org.jellyfin.client",
+      "icon": null,
+      "icon_sha256": null
+    },
+    {
+      "name": "Apple Fitness+",
+      "bundle_id": "com.apple.Fitness",
+      "icon": "fitness.png",
+      "icon_sha256": "74a2cca7e353fabfddd4cabded8b642df8d846c46e2ea58c96f67b33d06ab58f"
+    },
+    {
+      "name": "Peloton",
+      "bundle_id": "com.onepeloton.peloton",
+      "icon": null,
+      "icon_sha256": null
+    },
+    {
+      "name": "The CW",
+      "bundle_id": "com.cw.freedom",
+      "icon": "thecw.png",
+      "icon_sha256": "ca47a3b417f4847c46d7bcb322217fc094cc90821f53692648e37d572bb7ef0c"
+    },
+    {
+      "name": "CNN",
+      "bundle_id": "com.cnn.CNNAppFirehose",
+      "icon": "cnn.png",
+      "icon_sha256": "4f9d2821dabc20e08725172252df6273a21c71b786f241bbab106c4f06f08c70"
+    },
+    {
+      "name": "The Weather Channel",
+      "bundle_id": "com.weather.TWC",
+      "icon": "theweatherchannel.png",
+      "icon_sha256": "409cbbe3a24de3178b9112a10421cdbae1833cc2df14a49d1b92ec90f9472e13"
+    },
+    {
+      "name": "PBS",
+      "bundle_id": "org.pbs.playeripad",
+      "icon": "pbs.png",
+      "icon_sha256": "1606407b0d1642f6ed6c75fd800b39beec7a15bf06e1d55dc8be127c97681311"
+    },
+    {
+      "name": "Smithsonian Channel",
+      "bundle_id": "com.smithsonianchannel.smithsonianchannel",
+      "icon": "smithsonianchannel.png",
+      "icon_sha256": "7a3ed0b585c0a13094748b2da06e31d7e029fe1eadaa5ec5b899bb258b206cc4"
+    },
+    {
+      "name": "National Geographic",
+      "bundle_id": "com.nationalgeographic.natgeotv",
+      "icon": "nationalgeographic.png",
+      "icon_sha256": "8b71bde8059a69c26b87bc5f2bdb50ecb947de79d48bd6ef377db4fa8234eae9"
+    },
+    {
+      "name": "FITE",
+      "bundle_id": "com.fite.fite",
+      "icon": null,
+      "icon_sha256": null
+    },
+    {
+      "name": "WWE Network",
+      "bundle_id": "com.wwe.universal",
+      "icon": null,
+      "icon_sha256": null
+    },
+    {
+      "name": "UFC",
+      "bundle_id": "com.ufc.ufcapp",
+      "icon": null,
+      "icon_sha256": null
+    },
+    {
+      "name": "Twitch",
+      "bundle_id": "tv.twitch",
+      "icon": "twitch.png",
+      "icon_sha256": "c4e2d16db46d209092d83ad8f2a069c9d249cf317194da63c7e4db7bec851f57"
+    },
+    {
+      "name": "Vimeo",
+      "bundle_id": "com.vimeo.vimeo",
+      "icon": null,
+      "icon_sha256": null
+    },
+    {
+      "name": "MasterClass",
+      "bundle_id": "com.masterclass.MasterClass",
+      "icon": null,
+      "icon_sha256": null
+    },
+    {
+      "name": "Settings",
+      "bundle_id": "com.apple.TVSettings",
+      "icon": "settings.png",
+      "icon_sha256": "721130898735425384b634d54bdfcfb3946918a16e04b97858c88e01a11294b0"
+    },
+    {
+      "name": "Photos",
+      "bundle_id": "com.apple.TVPhotos",
+      "icon": "photos.png",
+      "icon_sha256": "b00935f84ccd2dc429e8a017304d4130c3cb2c62915f9fd08a1e1f5eb58e392a"
+    },
+    {
+      "name": "App Store",
+      "bundle_id": "com.apple.TVAppStore",
+      "icon": "appstore.png",
+      "icon_sha256": "d560a530c4ddf9fcdbb874ae32aa9b7ab193685310f52b64cc5d211c3d6ccb21"
+    },
+    {
+      "name": "FaceTime",
+      "bundle_id": "com.apple.facetime",
+      "icon": "facetime.png",
+      "icon_sha256": "59109d222d06c3ce7a75c988df6afa06fc6cf18460cbc69700605e53e8e1b38d"
+    },
+    {
+      "name": "Podcasts",
+      "bundle_id": "com.apple.podcasts",
+      "icon": "podcasts.png",
+      "icon_sha256": "f09ca46ef7c11d303eca56365d175b8cce91816f724c57a76b4a5d92e96086c9"
+    }
+  ]
+}
