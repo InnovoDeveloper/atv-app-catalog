@@ -1,10 +1,11 @@
 {
   "channel": "stable",
-  "version": "2026.05.23.2",
+  "version": "2026.05.23.3",
   "_description": "Innovo curated Apple TV app catalog with per-icon SHA-256.",
   "_changelog": [
     "2026-05-23.1: Initial seed from atv-bridge static catalog v2 (69 apps)",
-    "2026-05-23.2: Updated Spotify + HBO Max to current App Store artwork. Added 16 previously-missing icons via iTunes Search API: Movies Anywhere, MUBI, The Roku Channel (Roku app icon), YouTube Music, NHL, Xbox, Steam Link, VLC, Infuse, Jellyfin (Swiftfin), Peloton, FITE (TrillerTV), WWE Network, UFC, Vimeo, MasterClass. Crackle + GeForce NOW remain icon=null (no current App Store match)."
+    "2026-05-23.2: Updated Spotify + HBO Max to current App Store artwork. Added 16 previously-missing icons via iTunes Search API: Movies Anywhere, MUBI, The Roku Channel (Roku app icon), YouTube Music, NHL, Xbox, Steam Link, VLC, Infuse, Jellyfin (Swiftfin), Peloton, FITE (TrillerTV), WWE Network, UFC, Vimeo, MasterClass. Crackle + GeForce NOW remain icon=null (no current App Store match).",
+    "2026-05-23.3: Added Crackle (icon-icons.com) and GeForce NOW (Wikimedia, SVG rasterized to 512x512). All 69 apps now have icons."
   ],
   "apps": [
     {
@@ -154,8 +155,8 @@
     {
       "name": "Crackle",
       "bundle_id": "tv.crackle.crackleios",
-      "icon": null,
-      "icon_sha256": null
+      "icon": "crackle.png",
+      "icon_sha256": "f88db35008fd053221ed28fd247d9d2c652af2a6a05060716485195f7daeb94e"
     },
     {
       "name": "Spotify",
@@ -286,8 +287,8 @@
     {
       "name": "GeForce NOW",
       "bundle_id": "com.nvidia.geforcenow",
-      "icon": null,
-      "icon_sha256": null
+      "icon": "geforcenow.png",
+      "icon_sha256": "9c2c3c9f682259ce9fba0a6a19d8c6f076f20ef2b3d59b4c73c9bf7a30a9aad7"
     },
     {
       "name": "VLC",
