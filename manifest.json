@@ -1,5 +1,5 @@
 {
-  "version": "2026.05.23.12",
+  "version": "2026.05.23.13",
   "_description": "Innovo Apple TV icon library. Served on managed devices at /icons/<name>.png via nginx, read by the Elan driver and any other app that needs Apple TV app artwork.",
   "_changelog": [
     "2026-05-23.6: Repurposed from apple-tv-apps.json (apps[]) to manifest.json (icons-only). Apple TV app discovery is now handled natively by pyatv PR #2855; this repo's only job is to host the icon library + ship deltas to devices.",
@@ -8,7 +8,8 @@
     "2026-05-23.9: Added Global TV (globaltv.png). 75 icons total.",
     "2026.05.23.10: updated 7 (chillio.png, hallmark.png, nasa.png, spectrum.png, citytv.png, globaltv.png, hbomax.png).",
     "2026.05.23.11: updated 1 (netflix.png).",
-    "2026.05.23.12: updated 1 (netflix.png)."
+    "2026.05.23.12: updated 1 (netflix.png).",
+    "2026.05.23.13: updated 4 (chillio.png, nasa.png, hbomax.png, netflix.png)."
   ],
   "icons": {
     "amazonmusic.png": {
@@ -36,8 +37,8 @@
       "size": 33194
     },
     "chillio.png": {
-      "sha256": "9da80b1639dd2ebe2dd8421d943c09c8bba851e33cea53c4f5796d83d8dd9244",
-      "size": 60085
+      "sha256": "8b06c72c4a7466c3581b3a9a56031c0baaff4f687bb27a524a96c2a129480eea",
+      "size": 59045
     },
     "citytv.png": {
       "sha256": "4a61139bbb81e9e093675671a6d1a3fc4c8450d11d35f1efc4ead3192886604a",
@@ -108,8 +109,8 @@
       "size": 27091
     },
     "hbomax.png": {
-      "sha256": "f1f059f29584e724cac517930049691e8a6b716be574110e4a16091a400b3147",
-      "size": 47553
+      "sha256": "5eb811a161ccd0d62bb545b638f1fd42e73d6b9f31c95ef325c27c28b8d1ec4f",
+      "size": 47622
     },
     "hulu.png": {
       "sha256": "f951ee531fd6c3587d50260491f20d0449718526d0878be6b5e076983a07e529",
@@ -144,8 +145,8 @@
       "size": 45551
     },
     "nasa.png": {
-      "sha256": "c07752559058169c5ddfdb65aecf81b7601752a06db79875c65d68bdb2a27f8c",
-      "size": 38912
+      "sha256": "365cf849b6fa4568bac35ff6af4bcc42d9024e466ee5333298ddf6bcfe4a42b9",
+      "size": 38292
     },
     "nationalgeographic.png": {
       "sha256": "ef980203dcfb3983d2edfe2ab36668d954d0e36d7e0cbcb1ccdba5ddc7a9c98f",
@@ -160,8 +161,8 @@
       "size": 37318
     },
     "netflix.png": {
-      "sha256": "6e0c7ed2e6d39adf06726a0709d36f8c7f3a76ea27823eda529624dbb2ea5c25",
-      "size": 13400
+      "sha256": "945f79e3a50aa1351dfc6f93a1f3f093567551728a4c580202dec38b4a27b731",
+      "size": 14433
     },
     "nfl.png": {
       "sha256": "bf1b954cb7eacce66334fef8da53c806128b9b1cfa79b218c409c50474e07cec",
