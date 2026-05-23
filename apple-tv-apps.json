@@ -1,9 +1,10 @@
 {
   "channel": "stable",
-  "version": "2026.05.23.1",
+  "version": "2026.05.23.2",
   "_description": "Innovo curated Apple TV app catalog with per-icon SHA-256.",
   "_changelog": [
-    "2026-05-23.1: Initial seed from atv-bridge static catalog v2 (69 apps)"
+    "2026-05-23.1: Initial seed from atv-bridge static catalog v2 (69 apps)",
+    "2026-05-23.2: Updated Spotify + HBO Max to current App Store artwork. Added 16 previously-missing icons via iTunes Search API: Movies Anywhere, MUBI, The Roku Channel (Roku app icon), YouTube Music, NHL, Xbox, Steam Link, VLC, Infuse, Jellyfin (Swiftfin), Peloton, FITE (TrillerTV), WWE Network, UFC, Vimeo, MasterClass. Crackle + GeForce NOW remain icon=null (no current App Store match)."
   ],
   "apps": [
     {
@@ -46,7 +47,7 @@
       "name": "HBO Max",
       "bundle_id": "com.wbd.stream",
       "icon": "hbomax.png",
-      "icon_sha256": "a5d6738f9d333d36a3d1a48a5dcc203da5f9804719425d52098718885f402586"
+      "icon_sha256": "af1c0f9006524fcf6a4173901a5b4573a87d2507c3c196012d3fecc0fa9dbf0d"
     },
     {
       "name": "Paramount+",
@@ -111,8 +112,8 @@
     {
       "name": "Movies Anywhere",
       "bundle_id": "com.moviesanywhere",
-      "icon": null,
-      "icon_sha256": null
+      "icon": "moviesanywhere.png",
+      "icon_sha256": "77251f1b7aaebd38b292a28b3604afe96708ef525298f5740e639bde8204c60f"
     },
     {
       "name": "discovery+",
@@ -141,14 +142,14 @@
     {
       "name": "MUBI",
       "bundle_id": "com.mubi.mubiapp",
-      "icon": null,
-      "icon_sha256": null
+      "icon": "mubi.png",
+      "icon_sha256": "88974ed5fc467be42fabfc4a8ce9b8cce6bb71d30b48b4784386a176c0cd15ca"
     },
     {
       "name": "The Roku Channel",
       "bundle_id": "com.roku.ios.roku",
-      "icon": null,
-      "icon_sha256": null
+      "icon": "therokuchannel.png",
+      "icon_sha256": "2235940a0e285c1f1ff558c5ece96461039e6189cd135f929d82ad522496612e"
     },
     {
       "name": "Crackle",
@@ -160,7 +161,7 @@
       "name": "Spotify",
       "bundle_id": "com.spotify.client",
       "icon": "spotify.png",
-      "icon_sha256": "db665697454f46ee4ca3de3d1dd14a5366cd006d51bb7a60c455c15623b64435"
+      "icon_sha256": "bcaf5acfb1358cc1d453d246c1a7a40b35cecaa3896c6daf06faca0479d2546b"
     },
     {
       "name": "Apple Music",
@@ -183,8 +184,8 @@
     {
       "name": "YouTube Music",
       "bundle_id": "com.google.ios.youtubemusic",
-      "icon": null,
-      "icon_sha256": null
+      "icon": "youtubemusic.png",
+      "icon_sha256": "45220a5e3691c03c9ed8ef7d00190301c61e922e79cdaf15bf4936accd678081"
     },
     {
       "name": "Amazon Music",
@@ -219,8 +220,8 @@
     {
       "name": "NHL",
       "bundle_id": "com.nhl.gc",
-      "icon": null,
-      "icon_sha256": null
+      "icon": "nhl.png",
+      "icon_sha256": "8259399d9e63665ef131176e9ffcb1af7443349e063a5248f9bba34123863889"
     },
     {
       "name": "Fox Sports",
@@ -273,14 +274,14 @@
     {
       "name": "Xbox",
       "bundle_id": "com.microsoft.gamestreaming",
-      "icon": null,
-      "icon_sha256": null
+      "icon": "xbox.png",
+      "icon_sha256": "40128ee0ea916e459afbb32c748f25e9482423decdbb32b03932daadbab0eb84"
     },
     {
       "name": "Steam Link",
       "bundle_id": "com.valvesoftware.steamlink",
-      "icon": null,
-      "icon_sha256": null
+      "icon": "steamlink.png",
+      "icon_sha256": "67edba8841087cedfdd56dbcb07159ef8372119ec29265545dae89b1ee9f6546"
     },
     {
       "name": "GeForce NOW",
@@ -291,20 +292,20 @@
     {
       "name": "VLC",
       "bundle_id": "org.videolan.vlc-ios",
-      "icon": null,
-      "icon_sha256": null
+      "icon": "vlc.png",
+      "icon_sha256": "c34b412653feb78494a7554740d473672a25e70175f21535add1a68450f2d0dd"
     },
     {
       "name": "Infuse",
       "bundle_id": "com.firecore.infuse",
-      "icon": null,
-      "icon_sha256": null
+      "icon": "infuse.png",
+      "icon_sha256": "a6932fdf6cf16b40ad14117f17a23efe3a52da985422bcd70dad42ac68511445"
     },
     {
       "name": "Jellyfin",
       "bundle_id": "org.jellyfin.client",
-      "icon": null,
-      "icon_sha256": null
+      "icon": "jellyfin.png",
+      "icon_sha256": "571b0c21fbe40d9f36fa738b89f0d67ce8e129146362a46846bc4f84b18b7626"
     },
     {
       "name": "Apple Fitness+",
@@ -315,8 +316,8 @@
     {
       "name": "Peloton",
       "bundle_id": "com.onepeloton.peloton",
-      "icon": null,
-      "icon_sha256": null
+      "icon": "peloton.png",
+      "icon_sha256": "a75060c4ea6b0cd4318407d7d870c49fa14f74f149b51a1e9dfb6c4a61e56801"
     },
     {
       "name": "The CW",
@@ -357,20 +358,20 @@
     {
       "name": "FITE",
       "bundle_id": "com.fite.fite",
-      "icon": null,
-      "icon_sha256": null
+      "icon": "fite.png",
+      "icon_sha256": "4c23cabd876e161795b4665ef64e9043f019d7339ae753ba8d7f8ea1a6e58fd5"
     },
     {
       "name": "WWE Network",
       "bundle_id": "com.wwe.universal",
-      "icon": null,
-      "icon_sha256": null
+      "icon": "wwenetwork.png",
+      "icon_sha256": "2eb9c0b8b70cf5978c495f059b7e35367e8e2ca5fd1742b276522c5fbe2efcf0"
     },
     {
       "name": "UFC",
       "bundle_id": "com.ufc.ufcapp",
-      "icon": null,
-      "icon_sha256": null
+      "icon": "ufc.png",
+      "icon_sha256": "de9f2d1452b63cb0ec2447c538b1638460a105f88806017ab781d0d1e7830609"
     },
     {
       "name": "Twitch",
@@ -381,14 +382,14 @@
     {
       "name": "Vimeo",
       "bundle_id": "com.vimeo.vimeo",
-      "icon": null,
-      "icon_sha256": null
+      "icon": "vimeo.png",
+      "icon_sha256": "8dfd220dacfcc6046a28a9bc7f09fbcaa15e4eb96a5b528d7ed9a2eb27b5105e"
     },
     {
       "name": "MasterClass",
       "bundle_id": "com.masterclass.MasterClass",
-      "icon": null,
-      "icon_sha256": null
+      "icon": "masterclass.png",
+      "icon_sha256": "80f1a32d5369dc1c7d0238f7168476a9aa5918fd73d0fd8c0c39bd13110f9421"
     },
     {
       "name": "Settings",
