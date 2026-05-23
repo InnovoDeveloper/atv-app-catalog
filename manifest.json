@@ -1,8 +1,9 @@
 {
-  "version": "2026.05.23.6",
+  "version": "2026.05.23.7",
   "_description": "Innovo Apple TV icon library. Served on managed devices at /icons/<name>.png via nginx, read by the Elan driver and any other app that needs Apple TV app artwork.",
   "_changelog": [
-    "2026-05-23.6: Repurposed from apple-tv-apps.json (apps[]) to manifest.json (icons-only). Apple TV app discovery is now handled natively by pyatv PR #2855; this repo's only job is to host the icon library + ship deltas to devices."
+    "2026-05-23.6: Repurposed from apple-tv-apps.json (apps[]) to manifest.json (icons-only). Apple TV app discovery is now handled natively by pyatv PR #2855; this repo's only job is to host the icon library + ship deltas to devices.",
+    "2026-05-23.7: Added City TV (citytv.png). Replaced HBO Max icon with operator-supplied newer version. 74 icons total."
   ],
   "icons": {
     "amazonmusic.png": {
@@ -32,6 +33,10 @@
     "chillio.png": {
       "sha256": "d3551565a73e5b756112e1ff1dcfc82e4888ae78a68e927bc6f8f498250ec5c7",
       "size": 100708
+    },
+    "citytv.png": {
+      "sha256": "4c641046513be9c20e4a00c55431f6e1de8c98842a383513cd48e5e4bd7daa80",
+      "size": 59384
     },
     "cnn.png": {
       "sha256": "30899f9acbff25269b1bdd8604425bc5bdcbc2a51f6efc2300eeec3c0b74f3d5",
@@ -94,8 +99,8 @@
       "size": 26823
     },
     "hbomax.png": {
-      "sha256": "5e5d9304e56831262f7df9f733a6e608bbe4322abc9c716dd0680480828d44bd",
-      "size": 31288
+      "sha256": "3e820ae84888e6b546bfc36a29fbdc8a6b961a2a29395d6663064e4477a26659",
+      "size": 71522
     },
     "hulu.png": {
       "sha256": "f951ee531fd6c3587d50260491f20d0449718526d0878be6b5e076983a07e529",
