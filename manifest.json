@@ -1,0 +1,301 @@
+{
+  "version": "2026.05.23.6",
+  "_description": "Innovo Apple TV icon library. Served on managed devices at /icons/<name>.png via nginx, read by the Elan driver and any other app that needs Apple TV app artwork.",
+  "_changelog": [
+    "2026-05-23.6: Repurposed from apple-tv-apps.json (apps[]) to manifest.json (icons-only). Apple TV app discovery is now handled natively by pyatv PR #2855; this repo's only job is to host the icon library + ship deltas to devices."
+  ],
+  "icons": {
+    "amazonmusic.png": {
+      "sha256": "c5ae75d8844cffdbfa6fb3ef53d1f670a2f2de0bd2eb3e95e8fb5d0eaf176233",
+      "size": 56562
+    },
+    "amc.png": {
+      "sha256": "86fb7c44fd8e83e02193d980928bef547a42c94069c3e054788203d1105307f4",
+      "size": 10832
+    },
+    "appletv.png": {
+      "sha256": "9cd1bcb8f0b2bcbda9318d6ed14b1b08e8ee4c99fd969006d73fd0659ed7bac3",
+      "size": 11978
+    },
+    "appstore.png": {
+      "sha256": "0afac50b292c553f64f942feb321ebd8dad7ca0908b0aa2296f153b000519fcd",
+      "size": 28822
+    },
+    "arcade.png": {
+      "sha256": "2f707703751fd81c22e356580a4ded7fb8a4597cfbff40ac9a3d3850774882d9",
+      "size": 16727
+    },
+    "cbssports.png": {
+      "sha256": "21cbbc347d42712e893e0407a2c6df033264c1722b80e12a4f1e1b2f38b3ce73",
+      "size": 33194
+    },
+    "chillio.png": {
+      "sha256": "d3551565a73e5b756112e1ff1dcfc82e4888ae78a68e927bc6f8f498250ec5c7",
+      "size": 100708
+    },
+    "cnn.png": {
+      "sha256": "30899f9acbff25269b1bdd8604425bc5bdcbc2a51f6efc2300eeec3c0b74f3d5",
+      "size": 30567
+    },
+    "crackle.png": {
+      "sha256": "491fc624eed99796bec8e9936115ce0141b62cc21fba18fc3eb44d3e457e61e2",
+      "size": 28806
+    },
+    "crunchyroll.png": {
+      "sha256": "726f23507a3a02989068ad8abb4ea5cefd60e0c0b14189e79e5a74d3fad8b3d5",
+      "size": 18788
+    },
+    "dazn.png": {
+      "sha256": "5e8940a053da5da244a6a6b7483da7e8fc864d7217ca22359684dda532acb1f6",
+      "size": 8992
+    },
+    "directv.png": {
+      "sha256": "3de10be0f9fb89e747d47f1ce685a95d2291fce59b1e9ec861db80003ddc33f2",
+      "size": 45441
+    },
+    "discoveryplus.png": {
+      "sha256": "f505cbb5ef1489769c992d080f597435266cb7b929d626a74a91b9925d23dd9c",
+      "size": 37004
+    },
+    "disney.png": {
+      "sha256": "285cc29b5296a7765d12dec43ede648030cda5dc08d34163b391adf6dddae8b2",
+      "size": 23547
+    },
+    "espn.png": {
+      "sha256": "bcb5438fca5cba4f3fe344b533585660dc5bf218c7ecaa6ec5c91b65ec98b595",
+      "size": 17861
+    },
+    "facetime.png": {
+      "sha256": "7fb94077c6161b9a305a1175f03e3d412e85084f58c3c1387fb4e5c1c347e748",
+      "size": 22293
+    },
+    "fite.png": {
+      "sha256": "6d29c0197bf8f63601a6d68a7197aa83703c1d11599218fe4182fcc17ad5e19d",
+      "size": 49963
+    },
+    "fitness.png": {
+      "sha256": "af00d7d74065fafc8b03db884bb4409caf124cbc0551f820b1c52d45145250e5",
+      "size": 47269
+    },
+    "foxsports.png": {
+      "sha256": "4af8fa112554f3fc4e46b2a81245016b19147ec2ed678edd2f10c5b70ea2e40c",
+      "size": 81483
+    },
+    "fubo.png": {
+      "sha256": "813da673f15fea854f752ff3eeb369d3455ea013398273d8efb37f15d84dd97c",
+      "size": 29390
+    },
+    "geforcenow.png": {
+      "sha256": "226d168e382401f2af8c3d54458b76e88e2223a5d18c898eb9625a55b68caf4f",
+      "size": 12117
+    },
+    "hallmark.png": {
+      "sha256": "2e1aa6a413832dba4ef075edd28ba0d63e01ec1e31fa12c639a5d60faaa2c2d8",
+      "size": 26823
+    },
+    "hbomax.png": {
+      "sha256": "5e5d9304e56831262f7df9f733a6e608bbe4322abc9c716dd0680480828d44bd",
+      "size": 31288
+    },
+    "hulu.png": {
+      "sha256": "f951ee531fd6c3587d50260491f20d0449718526d0878be6b5e076983a07e529",
+      "size": 8195
+    },
+    "infuse.png": {
+      "sha256": "d75d81283c09dd199073c011ec80e84cd078da148a565f98fe93b63d100390e1",
+      "size": 17254
+    },
+    "jellyfin.png": {
+      "sha256": "54414db73b544d51a912b7381381173bafabcb7d7bc0d9467e966543d28880ed",
+      "size": 18099
+    },
+    "masterclass.png": {
+      "sha256": "37e8c7b975546eaab4204c1eca51a91b9359e39266b6e482093cdd050d412512",
+      "size": 27627
+    },
+    "mlb.png": {
+      "sha256": "20479a89ebc7517ca50313eabe422b1913133ba17554d49487b2be7f2f7fb039",
+      "size": 17418
+    },
+    "moviesanywhere.png": {
+      "sha256": "481ce67120c338d901462e3b19c5bf5c57a821a49a5b440a1b393c8be943eb3c",
+      "size": 40900
+    },
+    "mubi.png": {
+      "sha256": "e94ce1e0d8503521a3e5cc189cad573bd316c7edd21ebeb153854b1048336716",
+      "size": 24517
+    },
+    "music.png": {
+      "sha256": "1249a2d2f7ad2627baac234015dc88a110e9912adbf441b2e9bbe28a3b166250",
+      "size": 45551
+    },
+    "nasa.png": {
+      "sha256": "63dd8dfdf73c1e3e115a8114f31dec311e37653708ed54ad953377d9b0bfca27",
+      "size": 37709
+    },
+    "nationalgeographic.png": {
+      "sha256": "ef980203dcfb3983d2edfe2ab36668d954d0e36d7e0cbcb1ccdba5ddc7a9c98f",
+      "size": 23290
+    },
+    "nba.png": {
+      "sha256": "1a90d47897bb0783d28a91bd5f544f96765e30003d303b73e9f5bb297ec3b05b",
+      "size": 21305
+    },
+    "nbcsports.png": {
+      "sha256": "bb48b0421780d27a51674b31148f0a33af77df00500b5613cd6f8eecd4268c06",
+      "size": 37318
+    },
+    "netflix.png": {
+      "sha256": "1b533c3f881b36a6be596e4aedef6a9aa9c44510b42aeb8cb56affb9c1e3522c",
+      "size": 15414
+    },
+    "nfl.png": {
+      "sha256": "bf1b954cb7eacce66334fef8da53c806128b9b1cfa79b218c409c50474e07cec",
+      "size": 25050
+    },
+    "nhl.png": {
+      "sha256": "8259399d9e63665ef131176e9ffcb1af7443349e063a5248f9bba34123863889",
+      "size": 46748
+    },
+    "pandora.png": {
+      "sha256": "5817061aa16255d08f975c9f515e0e1925eb43f21b1d31fbb01b6d8154ab6920",
+      "size": 55692
+    },
+    "paramountplus.png": {
+      "sha256": "cd828cb793d3ab36d1ce41b4e72af346e6b26d43e6f6af61a0897cef7d225166",
+      "size": 23430
+    },
+    "pbs.png": {
+      "sha256": "1606407b0d1642f6ed6c75fd800b39beec7a15bf06e1d55dc8be127c97681311",
+      "size": 15140
+    },
+    "pbskids.png": {
+      "sha256": "6c22667f4ee3031b1a527e0b259b44e2d6ef0ef5cdad551f9ca0a57e96b5306b",
+      "size": 28714
+    },
+    "peacock.png": {
+      "sha256": "54c74c97f8c30afb875ad32f0d3dabda18bad837d579836c2f47be45776662b4",
+      "size": 9857
+    },
+    "peloton.png": {
+      "sha256": "a75060c4ea6b0cd4318407d7d870c49fa14f74f149b51a1e9dfb6c4a61e56801",
+      "size": 16326
+    },
+    "photos.png": {
+      "sha256": "b00935f84ccd2dc429e8a017304d4130c3cb2c62915f9fd08a1e1f5eb58e392a",
+      "size": 41650
+    },
+    "plex.png": {
+      "sha256": "35c08d155037b04f8580b46d6490ec8d67e235a084f49ce780ebf9aa622470a9",
+      "size": 30526
+    },
+    "plutotv.png": {
+      "sha256": "0cb34436f691b93e9d86ccf8ac16fde0fb35bf2d41883fccb6b32ff6663ff313",
+      "size": 9664
+    },
+    "podcasts.png": {
+      "sha256": "f09ca46ef7c11d303eca56365d175b8cce91816f724c57a76b4a5d92e96086c9",
+      "size": 29147
+    },
+    "primevideo.png": {
+      "sha256": "aae4e24085234bb48a865f8e01b9c1a73d792839dc40c47fc6d599edd62f43c3",
+      "size": 19968
+    },
+    "settings.png": {
+      "sha256": "721130898735425384b634d54bdfcfb3946918a16e04b97858c88e01a11294b0",
+      "size": 44848
+    },
+    "shudder.png": {
+      "sha256": "c8ece78d77a67c1e83eed74c53ac3cf4b40fa0ded059b599f4ff1ce817318caf",
+      "size": 15652
+    },
+    "slingtv.png": {
+      "sha256": "8e04231e17f66e7e0e703b587f2eda1bb3f353ffb5eb67b9e7965f160e3bca32",
+      "size": 12986
+    },
+    "smithsonianchannel.png": {
+      "sha256": "7a3ed0b585c0a13094748b2da06e31d7e029fe1eadaa5ec5b899bb258b206cc4",
+      "size": 18175
+    },
+    "spectrum.png": {
+      "sha256": "bef9df47f811c2ebec617b053d71f8d1ba574c89b76f473e196567a5b4d182c8",
+      "size": 22248
+    },
+    "spotify.png": {
+      "sha256": "bcaf5acfb1358cc1d453d246c1a7a40b35cecaa3896c6daf06faca0479d2546b",
+      "size": 62098
+    },
+    "starz.png": {
+      "sha256": "84b57e28a416ac40d5345e9c1415c91df578969a8cca2dfeb1f969bfdfe33c4c",
+      "size": 13156
+    },
+    "steamlink.png": {
+      "sha256": "67edba8841087cedfdd56dbcb07159ef8372119ec29265545dae89b1ee9f6546",
+      "size": 63566
+    },
+    "thecw.png": {
+      "sha256": "ca47a3b417f4847c46d7bcb322217fc094cc90821f53692648e37d572bb7ef0c",
+      "size": 8659
+    },
+    "therokuchannel.png": {
+      "sha256": "2235940a0e285c1f1ff558c5ece96461039e6189cd135f929d82ad522496612e",
+      "size": 67958
+    },
+    "theweatherchannel.png": {
+      "sha256": "409cbbe3a24de3178b9112a10421cdbae1833cc2df14a49d1b92ec90f9472e13",
+      "size": 7517
+    },
+    "tidal.png": {
+      "sha256": "1d8b502164aad15981880fdaf100f82a58fd25f8d3b1508d2234b6485bfcd30e",
+      "size": 24551
+    },
+    "tubi.png": {
+      "sha256": "34e2f6d3f673637979da83f46e6f02c2ed70fda296d54035c8cfd7ac92445915",
+      "size": 7560
+    },
+    "twitch.png": {
+      "sha256": "c4e2d16db46d209092d83ad8f2a069c9d249cf317194da63c7e4db7bec851f57",
+      "size": 6002
+    },
+    "ufc.png": {
+      "sha256": "de9f2d1452b63cb0ec2447c538b1638460a105f88806017ab781d0d1e7830609",
+      "size": 34952
+    },
+    "vimeo.png": {
+      "sha256": "8dfd220dacfcc6046a28a9bc7f09fbcaa15e4eb96a5b528d7ed9a2eb27b5105e",
+      "size": 64561
+    },
+    "vlc.png": {
+      "sha256": "c34b412653feb78494a7554740d473672a25e70175f21535add1a68450f2d0dd",
+      "size": 46734
+    },
+    "vudu.png": {
+      "sha256": "326a9548bae85c77862adfde925767672729225e001543b426362b0bbedc2bff",
+      "size": 10590
+    },
+    "wwenetwork.png": {
+      "sha256": "2eb9c0b8b70cf5978c495f059b7e35367e8e2ca5fd1742b276522c5fbe2efcf0",
+      "size": 40438
+    },
+    "xbox.png": {
+      "sha256": "40128ee0ea916e459afbb32c748f25e9482423decdbb32b03932daadbab0eb84",
+      "size": 84541
+    },
+    "youtube.png": {
+      "sha256": "28e96cefa79170a1391ee1af6891573acddf0a089f50a44f717586b73fae8aa6",
+      "size": 6784
+    },
+    "youtubekids.png": {
+      "sha256": "c07faba544d83d3ebad3129682b0e1fe01dd066b18714c24ae8a38c7492f2988",
+      "size": 30363
+    },
+    "youtubemusic.png": {
+      "sha256": "45220a5e3691c03c9ed8ef7d00190301c61e922e79cdaf15bf4936accd678081",
+      "size": 96563
+    },
+    "youtubetv.png": {
+      "sha256": "44567b7002bf270dfeb879a14e428cc33b4766af1f239039ff6e1a087ec208d5",
+      "size": 6794
+    }
+  }
+}
