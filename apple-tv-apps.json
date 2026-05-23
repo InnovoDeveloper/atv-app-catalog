@@ -1,19 +1,20 @@
 {
   "channel": "stable",
-  "version": "2026.05.23.4",
+  "version": "2026.05.23.5",
   "_description": "Innovo curated Apple TV app catalog with per-icon SHA-256.",
   "_changelog": [
     "2026-05-23.1: Initial seed from atv-bridge static catalog v2 (69 apps)",
     "2026-05-23.2: Updated Spotify + HBO Max to current App Store artwork. Added 16 previously-missing icons via iTunes Search API: Movies Anywhere, MUBI, The Roku Channel (Roku app icon), YouTube Music, NHL, Xbox, Steam Link, VLC, Infuse, Jellyfin (Swiftfin), Peloton, FITE (TrillerTV), WWE Network, UFC, Vimeo, MasterClass. Crackle + GeForce NOW remain icon=null (no current App Store match).",
     "2026-05-23.3: Added Crackle (icon-icons.com) and GeForce NOW (Wikimedia, SVG rasterized to 512x512). All 69 apps now have icons.",
-    "2026-05-23.4: Replaced HBO Max icon with operator-supplied version."
+    "2026-05-23.4: Replaced HBO Max icon with operator-supplied version.",
+    "2026-05-23.5: Standardized ALL icons to 256x256 (per slug+size spec). Added 4 channels: Chillio (IPTV player), Hallmark Channel, NASA, Spectrum TV. Replaced GeForce NOW with operator-supplied artwork. Replaced HBO Max with operator-supplied artwork. Naming convention: lowercase, strip special characters and spaces, .png extension."
   ],
   "apps": [
     {
       "name": "Netflix",
       "bundle_id": "com.netflix.Netflix",
       "icon": "netflix.png",
-      "icon_sha256": "0c265356ff9a12e8fff130eff447375d07661d8d793a04bde294598d17f8ec4b"
+      "icon_sha256": "1b533c3f881b36a6be596e4aedef6a9aa9c44510b42aeb8cb56affb9c1e3522c"
     },
     {
       "name": "YouTube",
@@ -25,13 +26,13 @@
       "name": "Disney+",
       "bundle_id": "com.disney.disneyplus",
       "icon": "disney.png",
-      "icon_sha256": "94a9c279358ca14da691e27db0e9d009ca03002aa92b37636f69c4ae65b9b2da"
+      "icon_sha256": "285cc29b5296a7765d12dec43ede648030cda5dc08d34163b391adf6dddae8b2"
     },
     {
       "name": "Apple TV+",
       "bundle_id": "com.apple.TVWatchList",
       "icon": "appletv.png",
-      "icon_sha256": "19dcee859a1dd3b17582b3ce60fc579c72b99deafbe69144407872f5e30671b8"
+      "icon_sha256": "9cd1bcb8f0b2bcbda9318d6ed14b1b08e8ee4c99fd969006d73fd0659ed7bac3"
     },
     {
       "name": "Prime Video",
@@ -43,13 +44,13 @@
       "name": "Hulu",
       "bundle_id": "com.hulu.plus",
       "icon": "hulu.png",
-      "icon_sha256": "17a9bb6ee09f8284e05c3c006e52f60be933225b5c7d867e1d016a064788aadf"
+      "icon_sha256": "f951ee531fd6c3587d50260491f20d0449718526d0878be6b5e076983a07e529"
     },
     {
       "name": "HBO Max",
       "bundle_id": "com.wbd.stream",
       "icon": "hbomax.png",
-      "icon_sha256": "d3149c57f1e56eabe64c6ac2e8a6b6f9d5f1e86b57f7179ab2b39fc8dfe9e5a5"
+      "icon_sha256": "5e5d9304e56831262f7df9f733a6e608bbe4322abc9c716dd0680480828d44bd"
     },
     {
       "name": "Paramount+",
@@ -79,13 +80,13 @@
       "name": "Fubo",
       "bundle_id": "tv.fubo.mobile",
       "icon": "fubo.png",
-      "icon_sha256": "677d4eea68b866b9521b178a846b085b02ef056378c4776993644f1f1211d195"
+      "icon_sha256": "813da673f15fea854f752ff3eeb369d3455ea013398273d8efb37f15d84dd97c"
     },
     {
       "name": "DIRECTV",
       "bundle_id": "com.att.tv",
       "icon": "directv.png",
-      "icon_sha256": "e9683643122eccd6622ddf9861705b41ba8d451bd194d0559ebc92fd9a7949c4"
+      "icon_sha256": "3de10be0f9fb89e747d47f1ce685a95d2291fce59b1e9ec861db80003ddc33f2"
     },
     {
       "name": "Pluto TV",
@@ -115,13 +116,13 @@
       "name": "Movies Anywhere",
       "bundle_id": "com.moviesanywhere",
       "icon": "moviesanywhere.png",
-      "icon_sha256": "77251f1b7aaebd38b292a28b3604afe96708ef525298f5740e639bde8204c60f"
+      "icon_sha256": "481ce67120c338d901462e3b19c5bf5c57a821a49a5b440a1b393c8be943eb3c"
     },
     {
       "name": "discovery+",
       "bundle_id": "com.discovery.mobile.discoveryplus",
       "icon": "discoveryplus.png",
-      "icon_sha256": "62550e429bdefaaa88cca4621c51f75e954463970a4cb26fd26b01deddf99041"
+      "icon_sha256": "f505cbb5ef1489769c992d080f597435266cb7b929d626a74a91b9925d23dd9c"
     },
     {
       "name": "STARZ",
@@ -133,7 +134,7 @@
       "name": "AMC+",
       "bundle_id": "com.amcplus.amcn",
       "icon": "amc.png",
-      "icon_sha256": "d797e1aae33597c57e2503d7d11eca4593b0960c6514c8fe670c8e808e69052d"
+      "icon_sha256": "86fb7c44fd8e83e02193d980928bef547a42c94069c3e054788203d1105307f4"
     },
     {
       "name": "Shudder",
@@ -145,7 +146,7 @@
       "name": "MUBI",
       "bundle_id": "com.mubi.mubiapp",
       "icon": "mubi.png",
-      "icon_sha256": "88974ed5fc467be42fabfc4a8ce9b8cce6bb71d30b48b4784386a176c0cd15ca"
+      "icon_sha256": "e94ce1e0d8503521a3e5cc189cad573bd316c7edd21ebeb153854b1048336716"
     },
     {
       "name": "The Roku Channel",
@@ -157,7 +158,7 @@
       "name": "Crackle",
       "bundle_id": "tv.crackle.crackleios",
       "icon": "crackle.png",
-      "icon_sha256": "f88db35008fd053221ed28fd247d9d2c652af2a6a05060716485195f7daeb94e"
+      "icon_sha256": "491fc624eed99796bec8e9936115ce0141b62cc21fba18fc3eb44d3e457e61e2"
     },
     {
       "name": "Spotify",
@@ -169,7 +170,7 @@
       "name": "Apple Music",
       "bundle_id": "com.apple.TVMusic",
       "icon": "music.png",
-      "icon_sha256": "a3c77eb4edb3229e2c230431349acd46c09317c94ef04fcd69cc65b692928594"
+      "icon_sha256": "1249a2d2f7ad2627baac234015dc88a110e9912adbf441b2e9bbe28a3b166250"
     },
     {
       "name": "TIDAL",
@@ -193,13 +194,13 @@
       "name": "Amazon Music",
       "bundle_id": "com.amazon.mp3.AmazonCloudPlayer",
       "icon": "amazonmusic.png",
-      "icon_sha256": "5157d99183fdb9fe1c21c189bee61eb86f1ca983925fb72f5e4b746ee6808c70"
+      "icon_sha256": "c5ae75d8844cffdbfa6fb3ef53d1f670a2f2de0bd2eb3e95e8fb5d0eaf176233"
     },
     {
       "name": "ESPN",
       "bundle_id": "com.espn.watch",
       "icon": "espn.png",
-      "icon_sha256": "d970e9f18da911644f3e346fdfabbe2a6b23ad97988785fd5e86d4a78aff9cf4"
+      "icon_sha256": "bcb5438fca5cba4f3fe344b533585660dc5bf218c7ecaa6ec5c91b65ec98b595"
     },
     {
       "name": "NFL",
@@ -211,13 +212,13 @@
       "name": "NBA",
       "bundle_id": "com.nbadigital.gametimeltv",
       "icon": "nba.png",
-      "icon_sha256": "2bae3b1e27cf9954bf2fa8ee77d766128f56d736e7a43dac023bc22aab28dfd2"
+      "icon_sha256": "1a90d47897bb0783d28a91bd5f544f96765e30003d303b73e9f5bb297ec3b05b"
     },
     {
       "name": "MLB",
       "bundle_id": "com.mlb.atbat",
       "icon": "mlb.png",
-      "icon_sha256": "db97bcf6e5a99f93eabcb28b3cd7f97778b1477db1e68c43a8cbede6d639a676"
+      "icon_sha256": "20479a89ebc7517ca50313eabe422b1913133ba17554d49487b2be7f2f7fb039"
     },
     {
       "name": "NHL",
@@ -229,25 +230,25 @@
       "name": "Fox Sports",
       "bundle_id": "com.foxsports.fsgo",
       "icon": "foxsports.png",
-      "icon_sha256": "93701dd28a818f0c744412f70c0d4ddf2f62b98ba2e4019f990e789b63fc2200"
+      "icon_sha256": "4af8fa112554f3fc4e46b2a81245016b19147ec2ed678edd2f10c5b70ea2e40c"
     },
     {
       "name": "NBC Sports",
       "bundle_id": "com.nbcuni.nbc.sports",
       "icon": "nbcsports.png",
-      "icon_sha256": "721a943fd5976838c217fede10b0c4672b2cf5f5f99df4fd013cd9e38f118e3c"
+      "icon_sha256": "bb48b0421780d27a51674b31148f0a33af77df00500b5613cd6f8eecd4268c06"
     },
     {
       "name": "CBS Sports",
       "bundle_id": "com.cbsvideo.sportsapp",
       "icon": "cbssports.png",
-      "icon_sha256": "9276c57ec134f946d4cf88319da5e1091eed0bac833220e04a273c82a43cb18d"
+      "icon_sha256": "21cbbc347d42712e893e0407a2c6df033264c1722b80e12a4f1e1b2f38b3ce73"
     },
     {
       "name": "DAZN",
       "bundle_id": "com.dazn.theApp",
       "icon": "dazn.png",
-      "icon_sha256": "a9b430e80f110809aa3a27d1ea46b7f2c9918cb9166e577b69d5dca42998a79e"
+      "icon_sha256": "5e8940a053da5da244a6a6b7483da7e8fc864d7217ca22359684dda532acb1f6"
     },
     {
       "name": "PBS Kids",
@@ -265,13 +266,13 @@
       "name": "Crunchyroll",
       "bundle_id": "com.crunchyroll.iphone",
       "icon": "crunchyroll.png",
-      "icon_sha256": "ec683862f0803fa7a062de22d91ccdba3a3c2fbf16c30ec1a0487d41a0f00125"
+      "icon_sha256": "726f23507a3a02989068ad8abb4ea5cefd60e0c0b14189e79e5a74d3fad8b3d5"
     },
     {
       "name": "Apple Arcade",
       "bundle_id": "com.apple.Arcade",
       "icon": "arcade.png",
-      "icon_sha256": "3e36c9eaab5cffd40663911cb150fbed1506ba63970fa00b2ce6835539b58bca"
+      "icon_sha256": "2f707703751fd81c22e356580a4ded7fb8a4597cfbff40ac9a3d3850774882d9"
     },
     {
       "name": "Xbox",
@@ -289,7 +290,7 @@
       "name": "GeForce NOW",
       "bundle_id": "com.nvidia.geforcenow",
       "icon": "geforcenow.png",
-      "icon_sha256": "9c2c3c9f682259ce9fba0a6a19d8c6f076f20ef2b3d59b4c73c9bf7a30a9aad7"
+      "icon_sha256": "226d168e382401f2af8c3d54458b76e88e2223a5d18c898eb9625a55b68caf4f"
     },
     {
       "name": "VLC",
@@ -301,19 +302,19 @@
       "name": "Infuse",
       "bundle_id": "com.firecore.infuse",
       "icon": "infuse.png",
-      "icon_sha256": "a6932fdf6cf16b40ad14117f17a23efe3a52da985422bcd70dad42ac68511445"
+      "icon_sha256": "d75d81283c09dd199073c011ec80e84cd078da148a565f98fe93b63d100390e1"
     },
     {
       "name": "Jellyfin",
       "bundle_id": "org.jellyfin.client",
       "icon": "jellyfin.png",
-      "icon_sha256": "571b0c21fbe40d9f36fa738b89f0d67ce8e129146362a46846bc4f84b18b7626"
+      "icon_sha256": "54414db73b544d51a912b7381381173bafabcb7d7bc0d9467e966543d28880ed"
     },
     {
       "name": "Apple Fitness+",
       "bundle_id": "com.apple.Fitness",
       "icon": "fitness.png",
-      "icon_sha256": "74a2cca7e353fabfddd4cabded8b642df8d846c46e2ea58c96f67b33d06ab58f"
+      "icon_sha256": "af00d7d74065fafc8b03db884bb4409caf124cbc0551f820b1c52d45145250e5"
     },
     {
       "name": "Peloton",
@@ -331,7 +332,7 @@
       "name": "CNN",
       "bundle_id": "com.cnn.CNNAppFirehose",
       "icon": "cnn.png",
-      "icon_sha256": "4f9d2821dabc20e08725172252df6273a21c71b786f241bbab106c4f06f08c70"
+      "icon_sha256": "30899f9acbff25269b1bdd8604425bc5bdcbc2a51f6efc2300eeec3c0b74f3d5"
     },
     {
       "name": "The Weather Channel",
@@ -355,13 +356,13 @@
       "name": "National Geographic",
       "bundle_id": "com.nationalgeographic.natgeotv",
       "icon": "nationalgeographic.png",
-      "icon_sha256": "8b71bde8059a69c26b87bc5f2bdb50ecb947de79d48bd6ef377db4fa8234eae9"
+      "icon_sha256": "ef980203dcfb3983d2edfe2ab36668d954d0e36d7e0cbcb1ccdba5ddc7a9c98f"
     },
     {
       "name": "FITE",
       "bundle_id": "com.fite.fite",
       "icon": "fite.png",
-      "icon_sha256": "4c23cabd876e161795b4665ef64e9043f019d7339ae753ba8d7f8ea1a6e58fd5"
+      "icon_sha256": "6d29c0197bf8f63601a6d68a7197aa83703c1d11599218fe4182fcc17ad5e19d"
     },
     {
       "name": "WWE Network",
@@ -391,7 +392,7 @@
       "name": "MasterClass",
       "bundle_id": "com.masterclass.MasterClass",
       "icon": "masterclass.png",
-      "icon_sha256": "80f1a32d5369dc1c7d0238f7168476a9aa5918fd73d0fd8c0c39bd13110f9421"
+      "icon_sha256": "37e8c7b975546eaab4204c1eca51a91b9359e39266b6e482093cdd050d412512"
     },
     {
       "name": "Settings",
@@ -409,19 +410,43 @@
       "name": "App Store",
       "bundle_id": "com.apple.TVAppStore",
       "icon": "appstore.png",
-      "icon_sha256": "d560a530c4ddf9fcdbb874ae32aa9b7ab193685310f52b64cc5d211c3d6ccb21"
+      "icon_sha256": "0afac50b292c553f64f942feb321ebd8dad7ca0908b0aa2296f153b000519fcd"
     },
     {
       "name": "FaceTime",
       "bundle_id": "com.apple.facetime",
       "icon": "facetime.png",
-      "icon_sha256": "59109d222d06c3ce7a75c988df6afa06fc6cf18460cbc69700605e53e8e1b38d"
+      "icon_sha256": "7fb94077c6161b9a305a1175f03e3d412e85084f58c3c1387fb4e5c1c347e748"
     },
     {
       "name": "Podcasts",
       "bundle_id": "com.apple.podcasts",
       "icon": "podcasts.png",
       "icon_sha256": "f09ca46ef7c11d303eca56365d175b8cce91816f724c57a76b4a5d92e96086c9"
+    },
+    {
+      "name": "Chillio",
+      "bundle_id": "com.elsonbaty.chillio",
+      "icon": "chillio.png",
+      "icon_sha256": "d3551565a73e5b756112e1ff1dcfc82e4888ae78a68e927bc6f8f498250ec5c7"
+    },
+    {
+      "name": "Hallmark Channel",
+      "bundle_id": "com.spiritclips.sc",
+      "icon": "hallmark.png",
+      "icon_sha256": "2e1aa6a413832dba4ef075edd28ba0d63e01ec1e31fa12c639a5d60faaa2c2d8"
+    },
+    {
+      "name": "NASA",
+      "bundle_id": "gov.nasa.NASA",
+      "icon": "nasa.png",
+      "icon_sha256": "63dd8dfdf73c1e3e115a8114f31dec311e37653708ed54ad953377d9b0bfca27"
+    },
+    {
+      "name": "Spectrum TV",
+      "bundle_id": "com.timewarnercable.simulcast",
+      "icon": "spectrum.png",
+      "icon_sha256": "bef9df47f811c2ebec617b053d71f8d1ba574c89b76f473e196567a5b4d182c8"
     }
   ]
 }
