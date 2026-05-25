@@ -1,5 +1,5 @@
 {
-  "version": "2026.05.23.20",
+  "version": "2026.05.25.1",
   "_description": "Innovo Apple TV icon library. Served on managed devices at /icons/<name>.png via nginx, read by the Elan driver and any other app that needs Apple TV app artwork.",
   "_changelog": [
     "2026-05-23.6: Repurposed from apple-tv-apps.json (apps[]) to manifest.json (icons-only). Apple TV app discovery is now handled natively by pyatv PR #2855; this repo's only job is to host the icon library + ship deltas to devices.",
@@ -16,7 +16,8 @@
     "2026.05.23.17: updated 1 (hulu.png).",
     "2026.05.23.18: updated 1 (disney.png).",
     "2026.05.23.19: added 1 (aljazeeraenglish.png); updated 1 (spotify.png).",
-    "2026.05.23.20: alias icons (disneyplus.png + disney+.png from disney.png; aljazeera.png from aljazeeraenglish.png). Same content, additional filenames so device-side UI/Elan callers using any of these names get the artwork."
+    "2026.05.23.20: alias icons (disneyplus.png + disney+.png from disney.png; aljazeera.png from aljazeeraenglish.png). Same content, additional filenames so device-side UI/Elan callers using any of these names get the artwork.",
+    "2026.05.25.1: added 2 (mbcshahid.png, tod.png)."
   ],
   "icons": {
     "aljazeera.png": {
@@ -150,6 +151,10 @@
     "masterclass.png": {
       "sha256": "37e8c7b975546eaab4204c1eca51a91b9359e39266b6e482093cdd050d412512",
       "size": 27627
+    },
+    "mbcshahid.png": {
+      "sha256": "7b2588138fae331d45e81544604427e374f010962f21731190e0af658dfc05be",
+      "size": 7077
     },
     "mlb.png": {
       "sha256": "20479a89ebc7517ca50313eabe422b1913133ba17554d49487b2be7f2f7fb039",
@@ -286,6 +291,10 @@
     "tidal.png": {
       "sha256": "1d8b502164aad15981880fdaf100f82a58fd25f8d3b1508d2234b6485bfcd30e",
       "size": 24551
+    },
+    "tod.png": {
+      "sha256": "020025f453a05c4952219fdcaef54b0897e496f7210451258b1dd0ff06cc6ffe",
+      "size": 9171
     },
     "tubi.png": {
       "sha256": "34e2f6d3f673637979da83f46e6f02c2ed70fda296d54035c8cfd7ac92445915",
