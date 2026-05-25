@@ -1,5 +1,5 @@
 {
-  "version": "2026.05.25.7",
+  "version": "2026.05.25.8",
   "_description": "Innovo Apple TV icon library. Served on managed devices at /icons/<name>.png via nginx, read by the Elan driver and any other app that needs Apple TV app artwork.",
   "_changelog": [
     "2026-05-23.6: Repurposed from apple-tv-apps.json (apps[]) to manifest.json (icons-only). Apple TV app discovery is now handled natively by pyatv PR #2855; this repo's only job is to host the icon library + ship deltas to devices.",
@@ -376,10 +376,6 @@
     "youtubetv.png": {
       "sha256": "44567b7002bf270dfeb879a14e428cc33b4766af1f239039ff6e1a087ec208d5",
       "size": 6794
-    },
-    "الجزيرة.png": {
-      "sha256": "8452f0631c8184573296179562cfb4518d6a0005531f622a826a853dffc29c06",
-      "size": 15909
     }
   }
 }
