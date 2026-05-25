@@ -1,5 +1,5 @@
 {
-  "version": "2026.05.25.2",
+  "version": "2026.05.25.3",
   "_description": "Innovo Apple TV icon library. Served on managed devices at /icons/<name>.png via nginx, read by the Elan driver and any other app that needs Apple TV app artwork.",
   "_changelog": [
     "2026-05-23.6: Repurposed from apple-tv-apps.json (apps[]) to manifest.json (icons-only). Apple TV app discovery is now handled natively by pyatv PR #2855; this repo's only job is to host the icon library + ship deltas to devices.",
@@ -18,7 +18,8 @@
     "2026.05.23.19: added 1 (aljazeeraenglish.png); updated 1 (spotify.png).",
     "2026.05.23.20: alias icons (disneyplus.png + disney+.png from disney.png; aljazeera.png from aljazeeraenglish.png). Same content, additional filenames so device-side UI/Elan callers using any of these names get the artwork.",
     "2026.05.25.1: added 2 (mbcshahid.png, tod.png).",
-    "2026.05.25.2: added 1 (smarterspro.png)."
+    "2026.05.25.2: added 1 (smarterspro.png).",
+    "2026.05.25.3: added 1 (splayerpro.png)."
   ],
   "icons": {
     "aljazeera.png": {
@@ -268,6 +269,10 @@
     "spectrum.png": {
       "sha256": "ecf1a38e56bbf910db9021883c5b584c668b9f88c7b7ebfa4d49fabb55a233a7",
       "size": 21433
+    },
+    "splayerpro.png": {
+      "sha256": "ffe0d5da7160634898798171f8a3cc0a4cb4486a304d168225a3e0dd2a26f1e5",
+      "size": 32711
     },
     "spotify.png": {
       "sha256": "077b329b69f72e4031d7faa5a1ad7458631084b11c249cf402d4fbe3b5f22e29",
